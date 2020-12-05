@@ -10,7 +10,7 @@ public class DayThree
 {
     public static void main(String[] args) throws IOException
     {
-        Class<DayOne> clazz = DayOne.class;
+        Class<DayThree> clazz = DayThree.class;
         File file = new File(clazz.getResource("/daythree/input.txt").getFile());
         List<String> rows = FileUtils.readLines(file, "UTF-8");
 
